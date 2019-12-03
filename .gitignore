@@ -1,0 +1,5 @@
+.idea/
+back/
+front/
+env/mysql/data/
+env/nginx/logs/
