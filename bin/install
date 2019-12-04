@@ -1,1 +1,2 @@
 #!/usr/bin/env bash
+sudo docker network create blue_network

@@ -58,7 +58,7 @@ services:
       - default
       - blue_network
     ports:
-      - "6379:6379"
+      - "6380:6379"
 
   blue_elk:
     image: sebp/elk:683
