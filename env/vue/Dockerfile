@@ -1,3 +1,3 @@
-FROM node:lts-alpine
+FROM node:12-alpine
 
 CMD [ "npm", "run", "dev" ]
