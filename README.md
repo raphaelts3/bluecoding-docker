@@ -19,9 +19,9 @@
 - [ ] The path organization demonstrated below is required
 (I will send a zip from the project with the folders in place to make it easier,
 but *docker, backend and frontend* are 3 isolated repositories in git):
-	- root [docker]
-		- back [backend]
-		- front [frontend]
+	- root [docker](https://github.com/raphaelts3/bluecoding-docker)
+		- back [backend](https://github.com/raphaelts3/bluecoding-back)
+		- front [frontend](https://github.com/raphaelts3/bluecoding-front)
 - [ ] All the ports mentioned in *Infrastructure* must be available
 	- 9000
 	- 9001
