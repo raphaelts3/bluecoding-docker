@@ -37,6 +37,8 @@ but *docker, backend and frontend* are 3 isolated repositories in git):
 - The line above should: 
 	- Create the docker network
 	- Prepare the dockers
+	
+```(project-root) $ mkdir ./back/public/gifs```
 
 ```(project-root) $ chmod +x ./back/bin/install && cd back && ./bin/install && cd .. ```
 - The line above should:
@@ -48,6 +50,7 @@ but *docker, backend and frontend* are 3 isolated repositories in git):
 	- Run db:seed
 	- Run gif:crawl 1 - This populates the db with some gifs
 	- Run the unit tests
+	
 ### At this point the vue instance should be down, but the following commands will prepare and run it again
 ```(project-root) $ chmod +x ./front/bin/install && ./front/bin/install```
 - The line above should:
